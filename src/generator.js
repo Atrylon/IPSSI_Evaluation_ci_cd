@@ -3,7 +3,7 @@ function createBitcoin() {
 
     setTimeout(() => console.log('Created !'), 1000);
 
-    let varToRemove = true;
+    // let varToRemove = true;
 }
 
 module.exports = {
