@@ -1,0 +1,15 @@
+language: node_js
+php:
+- '12'
+
+cache:
+  directories:
+  - "$HOME/.npm/cache"
+
+install:
+-npm install
+
+script:
+-  ./node_modules/.binjshint ./src
+-  ./node_modules/.bin/retire
+-  if [ "$TRAVIS_BRANCH" = "master" ]; then ./node_modules/.bin/twly

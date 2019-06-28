@@ -22,4 +22,4 @@ Contenu du fichier Procfile :
     `web: node src/server.js`
 
 Ajouter un fichier explication.txt à la racine et m'expliquer comment faire pour bloquer
-une pull request vers master si la CI echoue
+une pull request vers master sni la CI echoue
