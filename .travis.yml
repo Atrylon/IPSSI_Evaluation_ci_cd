@@ -5,7 +5,7 @@ install: npm install
 script:
 - "./node_modules/.bin/jshint --verbose ./src/"
 - "./node_modules/.bin/retire"
-- "./node_modules/.bin/twly"
+- if [ "$TRAVIS_BRANCH" = "master" ]; then "./node_modules/.bin/twly"; fi
 deploy:
   api_key:
     secure: hsWFBpu2PQNF6FGkKMDOrKS11z5PHFg+kA/6iE1mZNd2MBSBPy9RzQbTZSEBu8/8mvHQKqwQ0G7+chFEfTiAyFJl/smk5vRdD8nCBXjlpwz1eQYMFadU3gFuzyk/RBfaAQw2d62hIouow8BLl3lvWlGdimM5WrRsAw6k5nwi5QR7XIOEvH4VW0YROAf1+VaVHFNgMdiceZVjLP7a3xU0fg28AngJSnWwRbZSg+fjOirvzxNPWV99tAauX8NkXY29O+YVqyWFMskQp8S2Y8OQFagK4roHHympLtfj9jYYpm3GH4RJ3fzkKIGljFldAXqSNVr0k8X/XmrMIyia8/y7jTQv2SQ0b1gs/UMK3qF84D0NOLdUQHMfugiQG9A0UQf9scUsWyyntcfeqET7FYw+fpPaJyvfYvD47DY48472GVmoN0aV3nhZ4/k35jdE15yo/PtN+lKrsfsNIjkQbZmeEa8Cp2ygoWddsE1md2Z57Cu1hb+dkDsGjdot8FkW2ra9+7ACoi5gZ/9q0t1lQVPmu55MI+5IJQz+DlYeTAyI6qTsqr/Ukg+cqKKmb1rAH406wMGKD2kGgHD3aruiLbgDCwaqOTYLqOxgr4pUed9JdA5bRPnZ5O/gdCXNoPBT/yFUGZXJrzjuCCqaEhjpxAAzZaZm/93QcPzqK7Es+keX4R0=
