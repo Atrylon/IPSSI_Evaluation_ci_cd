@@ -6,10 +6,9 @@ cache:
   directories:
   - "$HOME/.npm/cache"
 
-install:
--npm install
+install: npm install
 
 script:
--  ./node_modules/.binjshint ./src
--  ./node_modules/.bin/retire
--  if [ "$TRAVIS_BRANCH" = "master" ]; then ./node_modules/.bin/twly
+  -  ./node_modules/.binjshint ./src
+  -  ./node_modules/.bin/retire
+  -  if [ "$TRAVIS_BRANCH" = "master" ]; then ./node_modules/.bin/twly
