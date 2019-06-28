@@ -13,4 +13,3 @@ deploy:
   app: ipssi-evaluation-cicd
   on:
     repo: Atrylon/IPSSI_Evaluation_ci_cd
-    branch: dev
