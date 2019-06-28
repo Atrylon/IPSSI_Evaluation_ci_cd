@@ -11,6 +11,6 @@ deploy:
   api_key:
     secure: sGKqCHwU+QyFhhYU7+3u8TzG76OjAJqITjXkHpDacddiqlfBWJjD+qtNCEvNjPkOC0EyQc0yjf5Qb9iWLh0aKOKmEuckNjH1QqzBb4IjXztu/J3WUEc/ZJ2YUY6xezeSNPXPyYDzKOhYnbjrXlNSLySGx6U7Lv0VtTaBfgPBkV6UhnZP1KM4gy6FckDfm90SIBafguDKRHQ3NsTxz+1yJy3JLX3n3gBJgGb+Lk+403Zvrj+LrubKXrUHnkE7vjOEkm7eUYA2idcxR1I4jw6PWc3aHm9h8aPr9iLl/K66/dSgbRAhxFD3zWjmIqPyIlD+/b5xmyB+jiivFxvWmZIVLLyOEGtgPPjFgZL/v9F0J/h4qw8a6AgdUBfdBqS5basBMqqD0lTzqSQbUJYagR5Hr6r+/K9XHBnH4qcdWAIaJC100c4Wch+/zaa5zoCQatx1x2qZosQ9m1H0Kc3XQtJcaETvdfUA3buY5wLY+CA0CDSSqs60XMOW+4WLGDd/ylsyKWtltI/i5t+l08HGpbnLT4qzsG8qXvvMmNJcXmgagP5auBK8M0S1E48NfuYn0x5QtIOOCDiwiaV8W3+Foz9Fz2yyiW68RathI0AvtLctF8CBXda692UzkJAMTaCnmSmXsvpuVx0n4KoolNHP+OhdxmQ+rzGBkeYEsVBB6aXmJ28=
   app: ipssi-evaluation-cicd
-    on:
-      repo: Atrylon/IPSSI_Evaluation_ci_cd
-      branch: dev
+  on:
+    repo: Atrylon/IPSSI_Evaluation_ci_cd
+    branch: dev
