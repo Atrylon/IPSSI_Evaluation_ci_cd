@@ -1,0 +1,5 @@
+Pour bloquer une pull request vers master sni la CI echoue, il faut ajouter une règle de protection de branch sur GitHub.
+
+En paramètre de cette règle, on sélectionnera "require status check to pass before merging" et on cochera Travis CI
+comme outil effectuant la vérification.
+Cela mènera un check des branches avant le merge pour vérifier si tout est bon.
