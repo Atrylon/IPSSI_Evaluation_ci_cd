@@ -11,7 +11,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "jshint": "^2.10.2",
+    "jshint": "^2.11.0",
     "retire": "^1.6.3",
     "twly": "^4.0.4"
   }
